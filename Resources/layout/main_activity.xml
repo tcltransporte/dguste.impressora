@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="10dp"
+	android:background="#c5e3f7">
+	
+
+	<!-- Primeira linha: duas entradas de data -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:id="@+id/lblData"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:text="Data de Emissão :"
+			android:paddingTop="10dp"
+			android:textSize="16sp"
+			android:layout_marginLeft="10dip"
+				/>
+
+		<EditText
+			android:id="@+id/txtData"
+			android:hint="dd/mm/aaaa"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:inputType="date" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:id="@+id/lblVenCod"
+			android:layout_width="80dp"
+			android:layout_height="wrap_content"
+			android:text="Codigo: "
+			android:paddingTop="20dp"
+			android:textSize="16sp"
+			android:layout_marginLeft="10dip"
+				/>
+
+		<TextView
+			android:id="@+id/lblVenNom"
+			android:layout_width="170dp"
+			android:layout_height="wrap_content"
+			android:text="Nome: "
+			android:paddingTop="20dp"
+			android:textSize="16sp"
+			android:layout_marginLeft="10dip"
+			/>
+
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="4dp">
+		<Button
+			android:id="@+id/btnBuscar"
+			android:text="Buscar"
+			android:layout_width="80dp"
+			android:layout_marginLeft="10dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:textColor="#ffffff"
+			android:background="@android:color/holo_blue_dark" />
+		<Button
+			android:id="@+id/btnImprim"
+			android:text="Imprimir"
+			android:layout_width="80dp"
+			android:layout_marginLeft="10dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			android:textColor="#ffffff"
+			android:background="@android:color/holo_blue_dark" />
+		<Button
+			android:id="@+id/btnSair"
+			android:text="Sair"
+			android:layout_width="80dp"
+			android:layout_marginLeft="10dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			android:textColor="#ffffff"
+			android:background="@android:color/holo_blue_dark" />
+
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/txtTitulo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="        Numero |  Cliente   | Tota Bruto |  NFiscal "
+		android:paddingTop="5dp" />
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:padding="16dp"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+			>
+
+		<Spinner
+			android:id="@+id/spinnerItens"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="10sp"
+				/>
+		<TextView
+			android:id="@+id/txtResultado"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text=" "
+			android:textAlignment="center"
+			android:textColor="#d71a30"
+			android:typeface="monospace"
+			android:textSize="12sp"
+			android:paddingTop="25dp" />
+	</LinearLayout>
+
+
+	<!--
+
+		android:textSize="18sp"
+		android:textSize="12sp"
+		android:textSize="18px"
+				
+	-->
+
+</LinearLayout>
+

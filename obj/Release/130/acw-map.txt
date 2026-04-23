@@ -1,0 +1,12 @@
+Impressora.main_activity, Impressora;crc6405ae394d46cb22fd.main_activity
+Impressora.main_activity;crc6405ae394d46cb22fd.main_activity
+impressora.main_activity;crc6405ae394d46cb22fd.main_activity
+Impressora.main_login, Impressora;crc6405ae394d46cb22fd.main_login
+Impressora.main_login;crc6405ae394d46cb22fd.main_login
+impressora.main_login;crc6405ae394d46cb22fd.main_login
+Xamarin.Essentials.ActivityLifecycleContextListener, Xamarin.Essentials;crc64a0e0a82d0db9a07d.ActivityLifecycleContextListener
+Xamarin.Essentials.ActivityLifecycleContextListener;crc64a0e0a82d0db9a07d.ActivityLifecycleContextListener
+xamarin.essentials.ActivityLifecycleContextListener;crc64a0e0a82d0db9a07d.ActivityLifecycleContextListener
+Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
+Google.Common.Util.Concurrent.IListenableFuture;com.google.common.util.concurrent.ListenableFuture
+com.google.common.util.concurrent.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
